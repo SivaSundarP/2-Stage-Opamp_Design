@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 0 -32 0 -48
+LINE Normal 0 32 0 48
+LINE Normal -80 64 -80 -64
+LINE Normal -80 -64 80 0
+LINE Normal 80 0 -80 64
+WINDOW 0 0 -88 Bottom 2
+PIN -80 -32 LEFT 8
+PINATTR PinName CURR
+PINATTR SpiceOrder 1
+PIN 0 -48 LEFT 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 2
+PIN -80 0 LEFT 8
+PINATTR PinName Vin
+PINATTR SpiceOrder 3
+PIN -80 32 LEFT 8
+PINATTR PinName Vip
+PINATTR SpiceOrder 4
+PIN 0 48 LEFT 8
+PINATTR PinName VSS
+PINATTR SpiceOrder 5
+PIN 80 0 RIGHT 20
+PINATTR PinName Vout
+PINATTR SpiceOrder 6
